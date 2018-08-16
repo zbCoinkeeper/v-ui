@@ -1,0 +1,23 @@
+{
+  "name": "v-ui",
+  "version": "0.0.1",
+  "description": "这是一个ui框架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zb18829041166/v-ui.git"
+  },
+  "keywords": [
+    "vue",
+    "ui"
+  ],
+  "author": "zb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zb18829041166/v-ui/issues"
+  },
+  "homepage": "https://github.com/zb18829041166/v-ui#readme"
+}
