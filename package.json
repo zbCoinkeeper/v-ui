@@ -19,5 +19,18 @@
   "bugs": {
     "url": "https://github.com/zb18829041166/v-ui/issues"
   },
-  "homepage": "https://github.com/zb18829041166/v-ui#readme"
+  "homepage": "https://github.com/zb18829041166/v-ui#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.9.7",
+    "vue": "^2.5.17",
+    "vue-hot-reload-api": "^2.3.0"
+  },
+  "alias": {
+    "vue": "./node_modules/vue/dist/vue.common.js"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^2.1.2",
+    "node-sass": "^4.9.3",
+    "vue-template-compiler": "^2.5.17"
+  }
 }
