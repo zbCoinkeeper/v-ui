@@ -37,7 +37,7 @@ chai.use(spies)
     expect(href).to.eq('#icon-setting')
     vm.$el.remove()
     vm.$destroy()
-}
+}   
 
 {
 

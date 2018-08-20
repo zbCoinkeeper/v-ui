@@ -10,10 +10,14 @@
 </template>
 
 <script>
+import Icon from './icon'
 export default {
+   components:{
+       'g-icon':Icon
+   },
   //props:['icon','iconPosition']
   props: {
-    icon: {},
+    icon:{},
     iconPosition: {
       type: String,
       default: "left",
@@ -26,7 +30,7 @@ export default {
         return value === "left" || value === "right";
       }
     },
-    loading: {
+    loading:{
       type: Boolean,
       default: false
     }
