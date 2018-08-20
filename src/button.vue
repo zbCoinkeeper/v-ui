@@ -1,7 +1,8 @@
 <template>
-    <button class="g-button" :class="{[`icon-${iconPosition}`]:true}">
-    <g-icon class="loading" name="loading"></g-icon>
-    <g-icon   class="icon" v-if="icon" :name="icon"></g-icon>
+    <button class="g-button" :class="{[`icon-${iconPosition}`]:true}"
+    @click="$emit('click')">
+    <g-icon class="loading icon" name="loading" v-if="loading"></g-icon>
+    <g-icon   class="icon" v-if="icon && !loading" :name="icon"></g-icon>
     <div class="content">
             <slot></slot>
     </div>
@@ -25,6 +26,10 @@
                         //}简化写法
                         return value==="left"||value==="right"
                     }
+                },
+                loading:{
+                    type:Boolean,
+                    default:false,
                 }
             }
         };
@@ -44,7 +49,7 @@
         border-radius: var(--border-radius);
         border: 1px solid var(--border-color);
         background: var(--button-bg);
-        display:flex;
+        display:inline-flex;
         justify-content:center;
         align-items:center;
         vertical-align: top;   /*inline元素就是如此*/
@@ -73,7 +78,7 @@
       }
       
 &:active {
-            background-color: var(--button-active-bg);
+            background-color:var(--button-active-bg);
           }
 &:focus{
     outline:none;
