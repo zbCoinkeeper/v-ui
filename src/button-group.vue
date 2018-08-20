@@ -21,8 +21,8 @@ export default {
 .button-group {
   display: inline-flex;
   vertical-align: top;ß
-  > .g-button {
-    border-radius: 0;
+  >.g-button {
+    border-radius:0;
     &:not(:first-child) {
       margin-left: -1px;
     }
