@@ -20,10 +20,10 @@ export default {
 <style lang="scss">
 .button-group {
   display: inline-flex;
-  vertical-align: top;ß
+  vertical-align: top;
   >.g-button {
     border-radius:0;
-    &:not(:first-child) {
+    &:not(:first-child){
       margin-left: -1px;
     }
     &:first-child {

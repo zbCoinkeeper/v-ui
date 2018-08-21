@@ -40,25 +40,19 @@
     outline: none; }
   .g-button .loading {
     animation: spin 2s infinite linear; }
-@charset "UTF-8";
 .button-group {
   display: inline-flex;
   vertical-align: top; }
-  .button-group ß
-> .g-button {
+  .button-group > .g-button {
     border-radius: 0; }
-    .button-group ß
-> .g-button:not(:first-child) {
+    .button-group > .g-button:not(:first-child) {
       margin-left: -1px; }
-    .button-group ß
-> .g-button:first-child {
+    .button-group > .g-button:first-child {
       border-bottom-left-radius: var(--border-radius);
       border-top-left-radius: var(--border-radius); }
-    .button-group ß
-> .g-button:last-child {
+    .button-group > .g-button:last-child {
       border-bottom-right-radius: var(--border-radius);
       border-top-right-radius: var(--border-radius); }
-    .button-group ß
-> .g-button:hover {
+    .button-group > .g-button:hover {
       position: relative;
       z-index: 1; }
