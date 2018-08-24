@@ -22,16 +22,6 @@ new Vue({
 
 
 
-
-
-
-
-
-
-
-
-
-
 import chai from 'chai'
 import spies from 'chai-spies'
 const expect = chai.expect
