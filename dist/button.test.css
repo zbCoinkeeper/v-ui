@@ -1,14 +1,19 @@
-.g-icon {
-  width: 1em;
-  height: 1em; }
-@charset "UTF-8";
-@keyframes spin {
-  0% {
-    transform: rotate(0deg); }
-  100% {
-    transform: rotate(360deg); } }
 
-.g-button {
+.g-icon[data-v-5956d3] {
+  width: 1em;
+  height: 1em;
+}
+
+@charset "UTF-8";
+@keyframes spin-data-v-b46622 {
+0% {
+    transform: rotate(0deg);
+}
+100% {
+    transform: rotate(360deg);
+}
+}
+.g-button[data-v-b46622] {
   font-size: var(--font-size);
   height: var(--button-height);
   padding: 0 1em;
@@ -19,24 +24,33 @@
   justify-content: center;
   align-items: center;
   vertical-align: top;
-  /*inline元素就是如此*/ }
-  .g-button > .content {
-    order: 2; }
-  .g-button > .icon {
+  /*inline元素就是如此*/
+}
+.g-button > .content[data-v-b46622] {
+    order: 2;
+}
+.g-button > .icon[data-v-b46622] {
     order: 1;
     margin-left: 0;
-    margin-right: 0.3em; }
-  .g-button.icon-right > .content {
-    order: 1; }
-  .g-button.icon-right > .icon {
+    margin-right: 0.3em;
+}
+.g-button.icon-right > .content[data-v-b46622] {
+    order: 1;
+}
+.g-button.icon-right > .icon[data-v-b46622] {
     order: 2;
     margin-left: 0.3em;
-    margin-right: 0; }
-  .g-button:hover {
-    border-color: var(--border-color-hover); }
-  .g-button:active {
-    background-color: var(--button-active-bg); }
-  .g-button:focus {
-    outline: none; }
-  .g-button .loading {
-    animation: spin 2s infinite linear; }
+    margin-right: 0;
+}
+.g-button[data-v-b46622]:hover {
+    border-color: var(--border-color-hover);
+}
+.g-button[data-v-b46622]:active {
+    background-color: var(--button-active-bg);
+}
+.g-button[data-v-b46622]:focus {
+    outline: none;
+}
+.g-button .loading[data-v-b46622] {
+    animation: spin-data-v-b46622 2s infinite linear;
+}

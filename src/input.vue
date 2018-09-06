@@ -36,6 +36,13 @@
   }
 </script>
 <style lang="scss" scoped>
+  $height: 32px;
+  $border-color: #999;
+  $border-color-hover: #666;
+  $border-radius: 4px;
+  $font-size: 12px;
+  $box-shadow-color: rgba(0, 0, 0, 0.5);
+  $red: #F1453D;
   .wrapper { font-size: $font-size; display: inline-flex;
     align-items: center;
     > :not(:last-child) {margin-right: .5em; }

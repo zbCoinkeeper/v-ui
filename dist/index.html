@@ -8,14 +8,15 @@
     <title>Document</title>
     <script src="//at.alicdn.com/t/font_798865_0jgtld8rpkyu.js"></script>
     <style>
-        #app {
-            margin: 40px;
-        }
+       
 
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+        }
+        #app {
+            margin: 40px;
         }
 
         body {
@@ -37,12 +38,27 @@
 
 <body>
     <div id="app">
-        <g-button icon="setting" icon-position="right" :loading="loading1" @click="loading1=!loading1">按钮</g-button>
-        <g-button-group>
-            <g-button icon="left" icon-position="left" @click="loading1=!loading1">上一页</g-button>
-            <g-button @click="loading1=!loading1">更多</g-button>
-            <g-button icon="right" icon-position="right" @click="loading1=!loading1">下一页</g-button>
-        </g-button-group>
+        <div class="box">
+            <g-input v-model="message"></g-input>
+            <p>{{message}}</p>
+            <button @click="message+=1">+1</button>
+          </div>
+          <div class="box">
+            <g-button :loading="loading1" @click="loading1 = !loading1">
+              按钮
+            </g-button>
+            <g-button icon="setting" :loading="loading2" @click="loading2 = !loading2">
+              按钮
+            </g-button>
+            <g-button icon="setting" icon-position="right" :loading="loading3" @click="loading3 = !loading3">
+              按钮
+            </g-button>
+            <g-button-group>
+              <g-button icon="left">上一页</g-button>
+              <g-button>更多</g-button>
+              <g-button icon="right" icon-position="right">下一页</g-button>
+            </g-button-group>
+          </div>
     </div>
 </body>
 <script src="/app.8e944e8c.js"></script>
