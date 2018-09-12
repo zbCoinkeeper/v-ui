@@ -13,11 +13,6 @@ import Footer from './footer'
 import Toast from './toast'
 import plugin from './plugin'
 
-
-
-
-
-
 Vue.component('g-button', Button)
 Vue.component('g-icon', Icon)
 Vue.component('g-button-group', ButtonGroup)
@@ -30,8 +25,7 @@ Vue.component('g-content', Content)
 Vue.component('g-footer', Footer)
 Vue.component('g-sider', Sider)
 Vue.component('g-toast', Toast)
-Vue.use(plugin) 
-
+Vue.use(plugin)
 
 import createElement from 'vue'
 
@@ -72,7 +66,3 @@ new Vue({
     }
   }
 })
-
-
-
-
