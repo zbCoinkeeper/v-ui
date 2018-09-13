@@ -959,3 +959,47 @@
     border-left: 1px solid #666;
     margin-left: 16px;
 }
+.tabs {
+}
+.tabs-head[data-v-68c87c] {
+  display: flex;
+  height: 40px;
+  justify-content: flex-start;
+  position: relative;
+  border-bottom: 1px solid #ddd;
+}
+.tabs-head > .line[data-v-68c87c] {
+    position: absolute;
+    bottom: 0;
+    border-bottom: 1px solid blue;
+    transition: all 350ms;
+}
+.tabs-head > .actions-wrapper[data-v-68c87c] {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1em;
+}
+.tabs-body {
+}
+.tabs-item[data-v-22b487] {
+  flex-shrink: 0;
+  padding: 0 1em;
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.tabs-item.active[data-v-22b487] {
+    color: blue;
+    font-weight: bold;
+}
+.tabs-item.disabled[data-v-22b487] {
+    color: grey;
+    cursor: not-allowed;
+}
+
+.tabs-pane[data-v-43e116] {
+  padding: 1em;
+}
