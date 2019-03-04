@@ -1,11 +1,11 @@
 <template>
     <button class="g-button" :class="{[`icon-${iconPosition}`]:true}"
     @click="$emit('click')">
-    <g-icon class="loading icon" name="loading" v-if="loading"></g-icon>
-    <g-icon   class="icon" v-if="icon && !loading" :name="icon"></g-icon>
-    <div class="content">
+      <g-icon class="loading icon" name="loading" v-if="loading"/>
+      <g-icon class="icon" v-if="icon && !loading" :name="icon"/>
+      <div class="content">
             <slot></slot>
-    </div>
+      </div>
     </button>
 </template>
 
@@ -38,7 +38,7 @@ export default {
 };
 </script>
 
-    <style lang="scss" scoped>
+<style lang="scss" scoped>
 @keyframes spin {
   0% {
     transform: rotate(0deg);
@@ -81,7 +81,6 @@ export default {
   &:hover {
     border-color: var(--border-color-hover);
   }
-
   &:active {
     background-color: var(--button-active-bg);
   }

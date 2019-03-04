@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>V-UI</title>
     <script src="//at.alicdn.com/t/font_798865_0jgtld8rpkyu.js"></script>
     <style>
        :root {
@@ -24,6 +24,7 @@
             padding: 0;
             box-sizing: border-box;
         }
+
         #app {
             margin: 40px;
         }
@@ -37,8 +38,10 @@
 <body>
     <div id="app">
        <g-button icon="setting">开始学习</g-button>
+       <g-button icon="setting" iconPosition="left">开始学习</g-button>
        <g-input v-model="message"></g-input>
       </div>
 </body>
 <script src="./src/app.js"></script>
+
 </html>
