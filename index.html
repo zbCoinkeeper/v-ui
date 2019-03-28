@@ -37,8 +37,8 @@
 
 <body>
     <div id="app">
-       <g-button icon="setting">开始学习</g-button>
-       <g-button icon="setting" iconPosition="left">开始学习</g-button>
+       <g-button :loading="true">开始学习</g-button>
+       <g-button icon="setting" icon-position="right">开始学习</g-button>
        <g-input v-model="message"></g-input>
       </div>
 </body>

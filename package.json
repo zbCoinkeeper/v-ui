@@ -5,7 +5,9 @@
   "main": "/dist/index.js",
   "scripts": {
     "dev-test": "parcel watch test/* --no-cache & karma start",
-    "test": "parcel build test/* --no-cache --no-minify && karma start --single-run"
+    "test": "parcel build test/* --no-cache --no-minify && karma start --single-run",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "repository": {
     "type": "git",
@@ -35,6 +37,7 @@
     "sinon": "^6.1.5",
     "sinon-chai": "^3.2.0",
     "vue": "^2.5.17",
+    "vue-server-renderer": "2.6.10",
     "vue-hot-reload-api": "^2.3.0"
   },
   "alias": {
@@ -42,7 +45,14 @@
   },
   "devDependencies": {
     "@vue/component-compiler-utils": "^2.1.2",
+    "acorn": "^6.1.1",
+    "ajv": "^6.10.0",
+    "browserslist": "^1.7.7",
     "node-sass": "^4.9.3",
-    "vue-template-compiler": "^2.5.17"
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue-template-compiler": "^2.5.17",
+    "vuepress": "^0.14.10",
+    "webpack-dev-middleware": "^3.6.0"
   }
 }
