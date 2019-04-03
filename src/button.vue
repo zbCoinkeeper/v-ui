@@ -39,56 +39,24 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-.g-button {
-  font-size: var(--font-size);
-  height: var(--button-height);
-  padding: 0 1em;
-  border-radius: var(--border-radius);
-  border: 1px solid var(--border-color);
-  background: var(--button-bg);
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  vertical-align: top; /*inline元素就是如此*/
-  > .content {
-    order: 2;
-  }
-  > .icon {
-    order: 1;
-    margin-left: 0;
-    margin-right: 0.3em;
-  }
-  &.icon-right {
-    > .content {
-      order: 1;
+  @import "var";
+    .g-button { font-size: $font-size; height: $button-height; padding: 0 1em;
+        border-radius: $border-radius; border: 1px solid $border-color;
+        background: $button-bg;
+        display: inline-flex; justify-content: center; align-items: center;
+        vertical-align: middle;
+        &:hover { border-color: $border-color-hover; }
+        &:active { background-color: $button-active-bg; }
+        &:focus { outline: none; }
+        > .g-button-content { order: 2; }
+        > .icon { order: 1; margin-right: .1em; }
+        &.icon-right {
+            > .g-button-content { order: 1; }
+            > .icon { order: 2; margin-right: 0; margin-left: .1em;}
+        }
+        .loading {
+            animation: spin 2s infinite linear;
+        }
     }
-    > .icon {
-      order: 2;
-      margin-left: 0.3em;
-      margin-right: 0;
-    }
-  }
 
-  &:hover {
-    border-color: var(--border-color-hover);
-  }
-  &:active {
-    background-color: var(--button-active-bg);
-  }
-  &:focus {
-    outline: none;
-  }
-  .loading {
-    animation: spin 2s infinite linear;
-  }
-}
 </style>
