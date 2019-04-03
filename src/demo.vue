@@ -2,8 +2,8 @@
     <div>
         <g-button icon="setting">你好</g-button>
         <g-input/>
-        <g-button loading >你好</g-button>
-        
+        <g-button :loading="loading1" @click="loading1=!loading1">你好</g-button>
+
     </div>
 </template>
 
@@ -11,15 +11,19 @@
     import  Button from "./button"
     import  Icon from "./icon"
     import  GInput from "./input"
-    export default {
-        name: "demo",
-        components:{
-            GButton:Button,
-            GIcon:Icon,
-            GInput
-        },
-
-    }
+        export default {
+            name: "demo",
+            components:{
+                GButton:Button,
+                GIcon:Icon,
+                GInput
+            },
+            data(){
+                return {
+                    loading1:true
+                }
+            }
+        }
 </script>
 
 <style lang="scss" scoped>

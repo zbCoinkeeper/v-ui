@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e2ba048-271b-425e-853f-44b3d67a3215" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_var.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/_var.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/var.scss" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -41,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/demo.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            <state relative-caret-position="330">
+              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
               <folding>
                 <element signature="e#162#192#0" expanded="true" />
               </folding>
@@ -121,9 +116,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="446" />
-    <option name="y" value="136" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="290" />
+    <option name="y" value="135" />
     <option name="width" value="1419" />
     <option name="height" value="854" />
   </component>
@@ -184,15 +179,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554303500597</updated>
-      <workItem from="1554303501971" duration="3251000" />
+      <workItem from="1554303501971" duration="3584000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3251000" />
+    <option name="totallyTimeSpent" value="3584000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="446" y="136" width="1419" height="854" extended-state="0" />
+    <frame x="290" y="135" width="1419" height="854" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="npm" side_tool="true" />
@@ -281,8 +276,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/demo.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        <state relative-caret-position="330">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
           <folding>
             <element signature="e#162#192#0" expanded="true" />
           </folding>
