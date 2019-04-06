@@ -6,11 +6,16 @@
       <div class="content">
             <slot></slot>
       </div>
+
+      <g-icon></g-icon>
+
+
+
     </button>
 </template>
 
 <script>
-import Icon from './icon'
+import Icon from '../icon'
 export default {
    components:{
        'g-icon':Icon
@@ -39,7 +44,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  @import "var";
+  @import "../var";
     .g-button { font-size: $font-size; height: $button-height; padding: 0 1em;
         border-radius: $border-radius; border: 1px solid $border-color;
         background: $button-bg;

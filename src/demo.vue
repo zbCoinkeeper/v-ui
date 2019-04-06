@@ -1,22 +1,21 @@
 <template>
     <div>
-        <g-button icon="setting">你好</g-button>
-        <g-input/>
-        <g-button :loading="loading1" @click="loading1=!loading1">你好</g-button>
-
+        <g-pagination></g-pagination>
     </div>
 </template>
 
 <script>
-    import  Button from "./button"
+    import  Button from "./button/button"
     import  Icon from "./icon"
     import  GInput from "./input"
+    import  GPagination from "./pagination"
         export default {
             name: "demo",
             components:{
                 GButton:Button,
                 GIcon:Icon,
-                GInput
+                GInput,
+                GPagination
             },
             data(){
                 return {
