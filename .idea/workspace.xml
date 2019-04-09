@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e2ba048-271b-425e-853f-44b3d67a3215" name="Default Changelist" comment="修改目录结构">
-      <change beforePath="$PROJECT_DIR$/src/demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sticky.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/sticky.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -109,7 +109,7 @@
         <entry file="file://$PROJECT_DIR$/src/sticky.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -143,8 +143,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="392" />
-    <option name="y" value="246" />
+    <option name="x" value="358" />
+    <option name="y" value="228" />
     <option name="width" value="1419" />
     <option name="height" value="854" />
   </component>
@@ -240,7 +240,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554303500597</updated>
-      <workItem from="1554303501971" duration="10580000" />
+      <workItem from="1554303501971" duration="11902000" />
     </task>
     <task id="LOCAL-00001" summary="修改目录结构">
       <created>1554541721554</created>
@@ -258,10 +258,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10580000" />
+    <option name="totallyTimeSpent" value="11902000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="392" y="246" width="1419" height="854" extended-state="0" />
+    <frame x="358" y="228" width="1419" height="854" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="npm" sideWeight="0.502" side_tool="true" weight="0.24964234" />
@@ -395,7 +395,7 @@
     <entry file="file://$PROJECT_DIR$/src/sticky.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
         </state>
       </provider>
     </entry>

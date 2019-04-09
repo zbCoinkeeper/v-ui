@@ -1,5 +1,6 @@
 <template>
     <div class="gulu-sticky" ref="wrapper" :class="classes">
+        <div class="gulu-sticky-inner"></div>
         <slot></slot>
     </div>
 </template>
@@ -13,24 +14,26 @@
             }
         },
         mounted(){
-
-        },
-        created(){
+            let top=this.top()
             window.addEventListener("scroll",()=>{
-                if(this.top()<=0){
+                console.log(top);
+                console.log(window.scrollY);
+                if(window.scrollY>top){
                     this.sticky=true
-                    console.log("11111")
+
                 }else{
                     this.sticky=false
-                    console.log("22222")
+
                 }
             })
+        },
+        created(){
+
         },
         methods:{
           top(){
             let {top}=this.$refs.wrapper.getBoundingClientRect()
-              console.log(top)
-            return top
+              return top+window.screenY
           }
         },
         computed:{
