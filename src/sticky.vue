@@ -1,7 +1,9 @@
 <template>
     <div class="gulu-sticky" ref="wrapper" :class="classes">
-        <div class="gulu-sticky-inner"></div>
-        <slot></slot>
+        <div class="gulu-sticky-inner">
+            <slot></slot>
+        </div>
+
     </div>
 </template>
 
@@ -33,7 +35,7 @@
         methods:{
           top(){
             let {top}=this.$refs.wrapper.getBoundingClientRect()
-              return top+window.screenY
+              return top+window.scrollY
           }
         },
         computed:{
