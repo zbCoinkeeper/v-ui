@@ -18,8 +18,6 @@
         mounted(){
             let top=this.top()
             window.addEventListener("scroll",()=>{
-                console.log(top);
-                console.log(window.scrollY);
                 if(window.scrollY>top){
                     this.sticky=true
 
