@@ -1,54 +1,7 @@
 <template>
-
-
- <div>
-     <p>1</p>
-     <p>1</p> <p>1</p>
-     <p>1</p>
-     <p>1</p>
-     <p>1</p>
-     <p>1</p>
-
-
-
-     <g-sticky>1111111</g-sticky>
-
-     <p>1</p>
-
-     <p>1</p> <p>1</p>
-     <p>1</p>
-     <p>1</p>
-     <p>1</p> <p>1</p>
-     <p>1</p>
-     <p>1</p>
-     <p>1</p>
-     <p>1</p>
-     <p>1</p>
-     <p>1</p>
-     <p>1</p>
-     <p>1</p>
-     <p>1</p>
-     <p>1</p>
-     <p>1</p> <p>1</p>
-     <p>1</p>
-     <p>1</p>
-     <p>1</p>
-
-
-
- </div>
-
-
-
-
-
-
-
-
-
-
-
-
+    <div>
+        <g-date-picker></g-date-picker>
+    </div>
 </template>
 
 <script>
@@ -57,6 +10,7 @@
     import  GInput from "./input"
     import  GPagination from "./pagination"
     import  GSticky from "./sticky"
+    import  GDatePicker from "./data-picker/data-picker"
         export default {
             name: "demo",
             components:{
@@ -64,11 +18,12 @@
                 GIcon:Icon,
                 GInput,
                 GPagination,
-                GSticky
+                GSticky,
+                GDatePicker
             },
             data(){
                 return {
-                    loading1:true
+
                 }
             }
         }
