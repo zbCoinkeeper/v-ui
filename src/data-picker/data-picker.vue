@@ -25,7 +25,7 @@
 <script>
     import GInput from "../input"
     import GIcon from "../icon"
-    import clickOutside from "../click-outside"
+    import ClickOutside from "../click-outside"
     export default {
         name: "ZBDatePicker",
         components:{
@@ -33,7 +33,7 @@
           GIcon
         },
         directives:{
-          clickOutside
+          ClickOutside
         },
         data(){
             return {

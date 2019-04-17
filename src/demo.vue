@@ -1,6 +1,10 @@
 <template>
     <div>
-        <g-date-picker></g-date-picker>
+        <g-collapse>
+            <g-collapse-item title="标题1">内容1</g-collapse-item>
+            <g-collapse-item title="标题2">内容2</g-collapse-item>
+            <g-collapse-item title="标题3">内容3</g-collapse-item>
+        </g-collapse>
     </div>
 </template>
 
@@ -11,6 +15,8 @@
     import  GPagination from "./pagination"
     import  GSticky from "./sticky"
     import  GDatePicker from "./data-picker/data-picker"
+    import  GCollapse from "./collapse"
+    import  GCollapseItem from "./collapse-item"
         export default {
             name: "demo",
             components:{
@@ -19,7 +25,9 @@
                 GInput,
                 GPagination,
                 GSticky,
-                GDatePicker
+                GDatePicker,
+                GCollapse,
+                GCollapseItem
             },
             data(){
                 return {
