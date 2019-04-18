@@ -1,11 +1,6 @@
 <template>
     <div>
-        <g-collapse  :selected.sync="selected">
-            <g-collapse-item title="标题1" name="1">内容1</g-collapse-item>
-            <g-collapse-item title="标题2" name="2">内容2</g-collapse-item>
-            <g-collapse-item title="标题3" name="3">内容3</g-collapse-item>
-        </g-collapse>
-        {{selected}}
+        <g-pager :total-pages="10" :current-page="3"></g-pager>
     </div>
 </template>
 
@@ -13,26 +8,26 @@
     import  Button from "./button/button"
     import  Icon from "./icon"
     import  GInput from "./input"
-    import  GPagination from "./pagination"
     import  GSticky from "./sticky"
     import  GDatePicker from "./data-picker/data-picker"
     import  GCollapse from "./collapse"
     import  GCollapseItem from "./collapse-item"
+    import GPager from "./pager"
         export default {
             name: "demo",
             components:{
                 GButton:Button,
                 GIcon:Icon,
                 GInput,
-                GPagination,
                 GSticky,
                 GDatePicker,
                 GCollapse,
-                GCollapseItem
+                GCollapseItem,
+                GPager
             },
             data(){
                 return {
-                    selected:["1","2"]
+
                 }
             }
         }
