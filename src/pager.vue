@@ -1,6 +1,10 @@
 <template>
-    <div>
-        <span v-for="page in pages">{{page}}</span>
+    <div class="gulu-pager">
+        <span v-for="page in pages" class="gulu-pager-item"
+            :class="{'active':page===currentPage,'separator':page==='...'}"
+        >
+            {{page}}
+        </span>
     </div>
 </template>
 
@@ -45,6 +49,28 @@
     }
 </script>
 
-<style scoped>
-
+<style scoped lang="scss">
+    .gulu-pager{
+        &-item{
+            border: 1px solid #eee;
+            border-radius: 4px;
+            padding: 0 4px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            font-size:12px;
+            height: 20px;
+            min-width:20px;
+            margin: 0 4px;
+         &.separator{
+             border: none;
+         }
+         &.active,&:hover{
+            border-color: #999;
+         }
+         &.active{
+             cursor: default;
+         }
+        }
+    }
 </style>

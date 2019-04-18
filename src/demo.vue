@@ -42,3 +42,9 @@
     $red: #F1453D;
     $height: 32px;
 </style>
+
+<style>
+    *{
+        box-sizing:border-box;
+    }
+</style>
