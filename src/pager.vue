@@ -1,5 +1,5 @@
 <template>
-    <div class="gulu-pager">
+    <div class="gulu-pager" :class="{'hide':hideIfOnePage&&totalPages===1}">
         <span class="gulu-pager-nav pre" :class="{'disabled':currentPage===1}" @click="onchangepage(currentPage-1)">
             <g-icon name="left"></g-icon>
         </span>

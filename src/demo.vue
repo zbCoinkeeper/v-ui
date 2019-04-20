@@ -1,6 +1,9 @@
 <template>
-    <div>
-        <g-pager :total-pages="10" :current-page.sync="currentPage"></g-pager>
+    <div class="wrapper">
+        <g-popover>
+            <div slot="content">我是content</div>
+            <button>click</button>
+        </g-popover>
     </div>
 </template>
 
@@ -13,6 +16,7 @@
     import  GCollapse from "./collapse"
     import  GCollapseItem from "./collapse-item"
     import GPager from "./pager"
+    import GPopover from "./popover"
         export default {
             name: "demo",
             components:{
@@ -23,7 +27,8 @@
                 GDatePicker,
                 GCollapse,
                 GCollapseItem,
-                GPager
+                GPager,
+                GPopover
             },
             data(){
                 return {
@@ -47,5 +52,8 @@
 <style>
     *{
         box-sizing:border-box;
+    }
+    .wrapper{
+        margin: 50px;
     }
 </style>
