@@ -23,19 +23,10 @@
         },
         methods:{
             ontrigger(){
-                this.isPop=!this.isPop
-                if(!this.isPop){
-                    console.log("关闭")
-                }else{
-                    this.$nextTick(()=>{
-                        console.log(this.$refs.contentWrapper)
-                        this.$refs.contentWrapper.style.left=window.screenX+this.$refs.trigger.left;
-                        this.$refs.contentWrapper.style.top=window.screenY+this.$refs.trigger.top;
-                    })
-                }
+
             },
             onClosePopover(){
-                this.isPop=false
+               
             }
         }
     }
