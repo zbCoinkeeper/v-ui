@@ -1,9 +1,6 @@
 <template>
     <div class="wrapper">
-        <g-popover>
-            <div slot="content">我是content</div>
-            <button>click</button>
-        </g-popover>
+
     </div>
 </template>
 
@@ -17,6 +14,7 @@
     import  GCollapseItem from "./collapse-item"
     import GPager from "./pager"
     import GPopover from "./popover"
+    import GTable from "./table"
         export default {
             name: "demo",
             components:{
@@ -28,7 +26,8 @@
                 GCollapse,
                 GCollapseItem,
                 GPager,
-                GPopover
+                GPopover,
+                GTable
             },
             data(){
                 return {

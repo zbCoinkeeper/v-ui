@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e2ba048-271b-425e-853f-44b3d67a3215" name="Default Changelist" comment="修改目录结构" />
+    <list default="true" id="0e2ba048-271b-425e-853f-44b3d67a3215" name="Default Changelist" comment="修改目录结构">
+      <change beforePath="$PROJECT_DIR$/src/popover.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/popover.vue" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,11 +31,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/popover.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+            <state relative-caret-position="285">
+              <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/table.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -90,11 +101,13 @@
         <option value="$PROJECT_DIR$/src/demo.vue" />
         <option value="$PROJECT_DIR$/src/click-outside.js" />
         <option value="$PROJECT_DIR$/src/popover.vue" />
+        <option value="$PROJECT_DIR$/src/table.vue" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="72" />
+    <option name="x" value="377" />
+    <option name="y" value="103" />
     <option name="width" value="1419" />
     <option name="height" value="854" />
   </component>
@@ -118,12 +131,6 @@
               <item name="button-new" type="b2602c69:ProjectViewProjectNode" />
               <item name="button-new" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="button-new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="button-new" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="data-picker" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -190,7 +197,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554303500597</updated>
-      <workItem from="1554303501971" duration="39123000" />
+      <workItem from="1554303501971" duration="39615000" />
     </task>
     <task id="LOCAL-00001" summary="修改目录结构">
       <created>1554541721554</created>
@@ -208,10 +215,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39123000" />
+    <option name="totallyTimeSpent" value="39615000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-54" y="351" width="1419" height="854" extended-state="0" />
+    <frame x="377" y="103" width="1419" height="854" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="npm" sideWeight="0.502" side_tool="true" weight="0.24964234" />
@@ -455,8 +462,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/popover.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        <state relative-caret-position="285">
+          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/table.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
         </state>
       </provider>
     </entry>
