@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e2ba048-271b-425e-853f-44b3d67a3215" name="Default Changelist" comment="修改目录结构">
-      <change beforePath="$PROJECT_DIR$/src/popover.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/popover.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/table.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/table.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,10 +22,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/demo.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
               <folding>
-                <element signature="e#118#155#0" expanded="true" />
+                <element signature="e#198#235#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/table.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+            <state relative-caret-position="45">
+              <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -98,16 +98,16 @@
         <option value="$PROJECT_DIR$/src/collapse.vue" />
         <option value="$PROJECT_DIR$/src/svg.js" />
         <option value="$PROJECT_DIR$/src/pager.vue" />
-        <option value="$PROJECT_DIR$/src/demo.vue" />
         <option value="$PROJECT_DIR$/src/click-outside.js" />
         <option value="$PROJECT_DIR$/src/popover.vue" />
+        <option value="$PROJECT_DIR$/src/demo.vue" />
         <option value="$PROJECT_DIR$/src/table.vue" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="377" />
-    <option name="y" value="103" />
+    <option name="x" value="408" />
+    <option name="y" value="125" />
     <option name="width" value="1419" />
     <option name="height" value="854" />
   </component>
@@ -197,7 +197,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554303500597</updated>
-      <workItem from="1554303501971" duration="39615000" />
+      <workItem from="1554303501971" duration="40150000" />
     </task>
     <task id="LOCAL-00001" summary="修改目录结构">
       <created>1554541721554</created>
@@ -215,10 +215,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39615000" />
+    <option name="totallyTimeSpent" value="40150000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="377" y="103" width="1419" height="854" extended-state="0" />
+    <frame x="346" y="139" width="1419" height="854" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="npm" sideWeight="0.502" side_tool="true" weight="0.24964234" />
@@ -275,7 +275,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/demo.vue</url>
-          <line>29</line>
+          <line>27</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -436,16 +436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/demo.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <element signature="e#118#155#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/data-picker/data-picker.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -460,6 +450,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/demo.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#198#235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/popover.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -469,8 +469,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/table.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        <state relative-caret-position="45">
+          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>

@@ -1,5 +1,21 @@
 <template>
     <div>
+       <thead>
+         <tr>
+            <th></th>
+            <th></th>
+         </tr>
+       </thead>
+        <tbody>
+             <tr>
+               <td></td>
+               <td></td>
+             </tr>
+             <tr>
+                 <td></td>
+                 <td></td>
+             </tr>
+       </tbody>
     </div>
 </template>
 
