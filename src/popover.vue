@@ -37,11 +37,11 @@
         display: inline-flex;
         vertical-align: top;
         position: relative;
+        &-content-wrapper{
+            position: absolute;
+            box-shadow: 0 0 3px rgba(0,0,0,0.5);
+            border: 1px solid red;
+        }
+    }
 
-    }
-    &-content-wrapper{
-        position: absolute;
-        box-shadow: 0 0 3px rgba(0,0,0,0.5);
-        border: 1px solid red;
-    }
 </style>

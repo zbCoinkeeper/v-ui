@@ -2,19 +2,17 @@
     <div>
        <thead>
          <tr>
-            <th></th>
-            <th></th>
+            <template v-for="column in columns">
+                <th>{{column.name}}</th>
+            </template>>
          </tr>
        </thead>
-        <tbody>
-             <tr>
-               <td></td>
-               <td></td>
-             </tr>
-             <tr>
-                 <td></td>
-                 <td></td>
-             </tr>
+       <tbody>
+             <template v-for="data in dataSource">
+                 <tr>
+                     <td v-for="column in columns">{{}}</td>
+                 </tr>
+             </template>
        </tbody>
     </div>
 </template>
