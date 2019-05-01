@@ -1,6 +1,123 @@
 <template>
     <div class="wrapper">
+        <g-scroll style="height: 100px">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
 
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+            <p>5</p>
+            <p>6</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+        </g-scroll>
     </div>
 </template>
 
@@ -14,7 +131,8 @@
     import  GCollapseItem from "./collapse-item"
     import GPager from "./pager"
     import GPopover from "./popover"
-    import GTable from "./table"
+    import GScroll from "./scroll"
+
         export default {
             name: "demo",
             components:{
@@ -27,7 +145,7 @@
                 GCollapseItem,
                 GPager,
                 GPopover,
-                GTable
+                GScroll
             },
             data(){
                 return {
