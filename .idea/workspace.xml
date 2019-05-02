@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e2ba048-271b-425e-853f-44b3d67a3215" name="Default Changelist" comment="修改目录结构">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scroll.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/scroll.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
@@ -37,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/scroll.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
+            <state relative-caret-position="118">
+              <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -83,8 +81,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="729" />
-    <option name="y" value="75" />
+    <option name="x" value="331" />
+    <option name="y" value="123" />
     <option name="width" value="1419" />
     <option name="height" value="854" />
   </component>
@@ -175,7 +173,7 @@
       <option name="presentableId" value="Default" />
       <updated>1554303500597</updated>
       <workItem from="1554303501971" duration="41940000" />
-      <workItem from="1556720775323" duration="3385000" />
+      <workItem from="1556720775323" duration="4321000" />
     </task>
     <task id="LOCAL-00001" summary="修改目录结构">
       <created>1554541721554</created>
@@ -193,16 +191,16 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45325000" />
+    <option name="totallyTimeSpent" value="46261000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="729" y="75" width="1419" height="854" extended-state="0" />
+    <frame x="342" y="669" width="1419" height="854" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.496" visible="true" weight="0.24964234" />
-      <window_info id="Structure" order="1" sideWeight="0.502" side_tool="true" weight="0.24964234" />
+      <window_info id="Structure" order="1" sideWeight="0.504" side_tool="true" weight="0.24964234" />
       <window_info id="npm" order="2" sideWeight="0.504" side_tool="true" visible="true" weight="0.24964234" />
-      <window_info id="Favorites" order="3" sideWeight="0.502" side_tool="true" weight="0.24964234" />
+      <window_info id="Favorites" order="3" sideWeight="0.504" side_tool="true" weight="0.24964234" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3297587" />
@@ -429,8 +427,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scroll.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
+        <state relative-caret-position="118">
+          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
         </state>
       </provider>
     </entry>

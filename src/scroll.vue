@@ -16,8 +16,16 @@
 <script>
     export default {
         name: "scroll",
-        mounted(){
-
+        methods:{
+            calculateContentYMax(){
+              let {borderTopWidth,borderBottomWidth,paddingTop,paddingBottom}=getComputedStyle(this.$refs.parent)
+              borderTopWidth=parseInt(borderTopWidth)
+              borderBottomWidth=parseInt(borderBottomWidth)
+              paddingTop=parseInt(paddingTop)
+              paddingBottom=parseInt(paddingBottom)
+              let maxHeight=this.childHeight-this.parentHeigth+(borderTopWidth+borderBottomWidth+paddingTop+paddingBottom)
+              return maxHeight
+            },
         }
 
     }
@@ -53,6 +61,9 @@
                height: 100%;
                background-color:#c2c2c2;
                border-radius: 4px;
+               &:hover{
+                   background-color: #7D7d7d;
+               }
            }
        }
     }
