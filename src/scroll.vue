@@ -26,6 +26,9 @@
               let maxHeight=this.childHeight-this.parentHeigth+(borderTopWidth+borderBottomWidth+paddingTop+paddingBottom)
               return maxHeight
             },
+        },
+        mounted(){
+
         }
 
     }
